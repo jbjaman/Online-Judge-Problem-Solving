@@ -1,7 +1,7 @@
 const fs = require("fs");
 
 function solve() {
-  const input = fs.readFileSync(0, "utf-8").trim().split(/\s+/);
+  const input = fs.readFileSync("./input.txt", "utf-8").trim().split(/\s+/);
   if (input.length === 0 || input[0] === "") {
     return;
   }
